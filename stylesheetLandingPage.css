@@ -3,14 +3,15 @@ h1 {
     font-size: 50px ;
     color: rgba(29, 94, 16, 0.979);
     margin-left: 2%;
-    border-bottom:1px solid #CCC;
+    border-bottom:2px solid #CCC;
     padding-bottom: 20px;
     }
 
-img {
-    box-shadow: 1px 1px 1px 1px;
-    width: 350px;
-    margin-left: 2%;
+h2 {
+    font-size: 40px ;
+    color: rgba(29, 94, 16, 0.979);
+    padding-bottom: 20px;
+    border-bottom:2px solid #CCC;
 }
 
 p {
@@ -20,4 +21,14 @@ p {
     position: relative;
     left: 2%;
     margin-right: 16%;
+}
+
+.left-img {
+    float: left;
+    box-shadow: 1px 1px 1px 1px;
+    padding-right: 7.5px;
+    padding-bottom: 7.5px;
+    max-width: 125px;
+    width: 500px;
+    margin-left: 2%; 
 }
