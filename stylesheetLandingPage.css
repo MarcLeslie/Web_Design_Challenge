@@ -38,6 +38,14 @@ p {
     left: 0%;
     margin-right: 4%;
 }
+
+/* Viz pages - text */
+p.viz-page {
+    position: relative;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Landing page, left side image*/
 .left-img {
     float: left;
@@ -55,10 +63,35 @@ p {
     float: left;
     /* box-shadow: 1px 1px 1px 1px; */
     padding-right: 0px;
-    padding-bottom: 7.5px;
+    padding-bottom: 5px;
     padding-top: 12px;
     /* max-width: 168px; */
     width: 168px;
+    margin-left: 2%; 
+}
+
+/* Viz page, current image - has less bottom padding*/
+.current-img {
+    float: left;
+    border: 1px solid rgb(228, 32, 32);
+    /* box-shadow: 1px 1px 1px 1px; */
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-top: 12px;
+    /* max-width: 168px; */
+    width: 168px;
+    margin-left: 2%; 
+}
+
+/* Viz page - primary image */
+.viz-img {
+    float: left;
+    /* box-shadow: 1px 1px 1px 1px; */
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    /* max-width: 168px; */
+    width: 655px;
     margin-left: 2%; 
 }
 
@@ -98,3 +131,4 @@ margin-left: 2%;
 .table-wrapper-scroll-y {
 display: block;
 }
+
