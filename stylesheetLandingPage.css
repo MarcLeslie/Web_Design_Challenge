@@ -86,3 +86,15 @@ padding-left: 2px;
 width: 500px;
 margin-left: 2%; 
 }
+
+/* Data page - to make the table scroll*/
+.my-custom-scrollbar {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    }
+
+/* Data page - to make the table scroll*/
+.table-wrapper-scroll-y {
+display: block;
+}
