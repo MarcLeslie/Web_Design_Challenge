@@ -78,7 +78,7 @@ p.viz-page {
 /* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
 .current-img {
     float: left;
-    border: 0.2px solid rgb(228, 32, 32);
+    border: 0.5px solid rgb(228, 32, 32);
     /* padding-right: 0px; */
     padding-bottom: 1px;
     /* padding-top: 12px; */
