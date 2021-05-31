@@ -71,8 +71,8 @@ p.viz-page {
     padding-right: 3px;
     padding-bottom: 3px;
     padding-top: 3px;
-    width: 165px;
-    margin-left: 2%; 
+    width: 163px;
+    /* margin-left: 2%;  */
 }
 
 /* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
@@ -83,7 +83,7 @@ p.viz-page {
     padding-bottom: 2px;
     padding-top: 2px;
     width: 165px;
-    margin-left: 2%; 
+    /* margin-left: 2%;  */
 }
 
 /* Viz page - primary image on left side of screen */
