@@ -68,22 +68,21 @@ p.viz-page {
 /* Viz pages, right side images that are NOT IN THE RED SQUARE*/
 .right-viz-img {
     float: left;
-    padding-right: 3px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-    width: 163px;
+    padding: 4px;
+    width: 150px;
     /* margin-left: 2%;  */
 }
 
 /* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
 .current-img {
-    float: left;
-    border: 1px solid rgb(228, 32, 32);
-    padding-right: 2px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    width: 165px;
-    /* margin-left: 2%;  */
+    background-color: red;
+    /* float: left; */
+    /* border: 0.5px solid rgb(228, 32, 32); */
+    /* padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    width: 150px;
+    margin-left: 2%;  */
 }
 
 /* Viz page - primary image on left side of screen */
@@ -97,10 +96,10 @@ p.viz-page {
 }
 
 /* Landing page - container */
-.cont-adjust {
+/* .cont-adjust {
     width: 1200px;
     margin: auto;
-}
+} */
 
 /* Comparison page - container */
 .comp-adjust {
@@ -130,3 +129,23 @@ margin-left: 2%;
 display: block;
 }
 
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
