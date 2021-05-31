@@ -27,7 +27,6 @@ h3.custom {
     color: rgba(29, 94, 16, 0.979);
     padding-bottom: 15px;
     padding-top: 15px;
-    /* border-bottom:2px solid #CCC; */
 }
 
 p {
@@ -49,48 +48,50 @@ p.viz-page {
 /* Landing page, left side image*/
 .left-img {
     float: left;
-    /* box-shadow: 0.25px 0.25px 0.25px 0.25px; */
     padding-right: 7.5px;
     padding-bottom: 7.5px;
     padding-top: 3px;
-    /* max-width: 125px; */
     width: 300px;
     /* margin-left: 1%;  */
 }
 
-/* Landing page, right side image*/
+/* Landing page, right side images*/
 .right-img {
     float: left;
-    /* box-shadow: 1px 1px 1px 1px; */
     padding-right: 0px;
-    padding-bottom: 2px;
-    padding-top: 12px;
-    /* max-width: 168px; */
+    padding-bottom: px;
+    padding-top: px;
     width: 168px;
     margin-left: 2%; 
 }
 
-/* Viz page, current image - has less bottom padding*/
+/* Viz pages, right side images that are NOT IN THE RED SQUARE*/
+.right-viz-img {
+    float: left;
+    padding-right: 0px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 165px;
+    margin-left: 2%; 
+}
+
+/* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
 .current-img {
     float: left;
-    /* border: 0.5px solid rgb(228, 32, 32); */
-    /* box-shadow: 1px 1px 1px 1px; */
-    padding-right: 0px;
-    padding-bottom: 2px;
-    padding-top: 12px;
-    /* max-width: 168px; */
-    width: 168px;
+    border: 0.2px solid rgb(228, 32, 32);
+    /* padding-right: 0px; */
+    padding-bottom: 1px;
+    /* padding-top: 12px; */
+    width: 165px;
     margin-left: 2%; 
 }
 
-/* Viz page - primary image */
+/* Viz page - primary image on left side of screen */
 .viz-img {
     float: left;
-    /* box-shadow: 1px 1px 1px 1px; */
     padding-right: 0px;
     padding-bottom: 20px;
     padding-top: 5px;
-    /* max-width: 168px; */
     width: 655px;
     margin-left: 2%; 
 }
@@ -109,13 +110,10 @@ p.viz-page {
 
 /* Comparison page - images */
 .comp-img {
-/* float: center; */
-/* box-shadow: 1px 1px 1px 1px; */
 padding-right: 2px;
 padding-bottom: 2px;
 padding-top: 2px;
 padding-left: 2px;
-/* max-width: 168px;  */
 width: 500px;
 margin-left: 2%; 
 }
