@@ -147,5 +147,9 @@ display: block;
     #nav-select {
       visibility: visible;
     }
+
+    .viz-img {
+        max-width: 300px;
+            }
   }
   
