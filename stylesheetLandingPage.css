@@ -65,7 +65,7 @@ p.viz-page {
     margin-left: 2%; 
 }
 
-/* Viz pages, right side images that are NOT IN THE RED SQUARE*/
+/* Viz pages, right side images that are NOT IN THE SQUARE*/
 .right-viz-img {
     float: left;
     padding: 4px;
@@ -73,7 +73,7 @@ p.viz-page {
     /* margin-left: 2%;  */
 }
 
-/* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
+/* Viz page, current image that IS IN SQUARE- has less bottom padding*/
 .current-img {
     background-color: rgb(102, 255, 0);
     /* float: left; */
