@@ -88,11 +88,12 @@ p.viz-page {
 /* Viz page - primary image on left side of screen */
 .viz-img {
     float: left;
-    padding-right: 0px;
+    /* padding-right: 20px; */
     padding-bottom: 20px;
     padding-top: 5px;
     width: 686px;
     margin-left: 2%; 
+    margin-right: 2%;
 }
 
 /* Landing page - container */
@@ -109,9 +110,9 @@ p.viz-page {
 
 /* Comparison page - images */
 .comp-img {
-padding: 0.5px;
-width: 500px;
-margin-left: 2%; 
+    padding: 0.5px;
+    width: 500px;
+    margin-left: 2%; 
 }
 
 /* Data page - to make the table scroll*/
@@ -119,12 +120,19 @@ margin-left: 2%;
     position: relative;
     height: 400px;
     overflow: auto;
-    }
+}
 
 /* Data page - to make the table scroll*/
 .table-wrapper-scroll-y {
-display: block;
+    display: block;
 }
+
+/* AS written this makes the 4 pics align into one column */
+/* #viz-area {
+    width: 100%; 
+    padding: 30px 30px 40px;
+    margin-top: 30px;
+} */
 
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
@@ -146,10 +154,5 @@ display: block;
       visibility: visible;
     }
 
-    .viz-img {
-        float: left;
-        max-width: 50px;
-        padding: 15px;
-            }
-  }
+}
   
