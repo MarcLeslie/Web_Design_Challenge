@@ -26,7 +26,7 @@ h3.custom {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(29, 94, 16, 0.979);
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 8px;
 }
 
 p {
@@ -75,7 +75,7 @@ p.viz-page {
 
 /* Viz page, current image that IS IN RED SQUARE- has less bottom padding*/
 .current-img {
-    background-color: red;
+    background-color: rgb(102, 255, 0);
     /* float: left; */
     /* border: 0.5px solid rgb(228, 32, 32); */
     /* padding-right: 8px;
@@ -109,10 +109,7 @@ p.viz-page {
 
 /* Comparison page - images */
 .comp-img {
-padding-right: 2px;
-padding-bottom: 2px;
-padding-top: 2px;
-padding-left: 2px;
+padding: 0.5px;
 width: 500px;
 margin-left: 2%; 
 }
@@ -128,6 +125,7 @@ margin-left: 2%;
 .table-wrapper-scroll-y {
 display: block;
 }
+
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
 @media (max-width: 480px) {
